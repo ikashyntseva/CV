@@ -1,5 +1,75 @@
 /* <editor-fold desc="Icons"> */
 @font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-light.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-light.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-light.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-light.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-light.svg#open+sans') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-lightitalic.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-lightitalic.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-lightitalic.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-lightitalic.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-lightitalic.svg#open+sans') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-regular.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-regular.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-regular.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-regular.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-regular.svg#open+sans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-italic.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-italic.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-italic.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-italic.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-italic.svg#open+sans') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibold.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibold.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibold.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibold.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibold.svg#open+sans') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibolditalic.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibolditalic.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibolditalic.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibolditalic.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-semibolditalic.svg#open+sans') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bold.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bold.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bold.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bold.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bold.svg#open+sans') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bolditalic.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bolditalic.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bolditalic.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bolditalic.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-bolditalic.svg#open+sans') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabold.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabold.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabold.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabold.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabold.svg#open+sans') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabolditalic.eot');
+    src: url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabolditalic.eot?#iefix') format('embedded-opentype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabolditalic.woff') format('woff'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabolditalic.ttf') format('truetype'), url('http://icanchoose.ru/public/resume/font/OpenSans/opensans-extrabolditalic.svg#open+sans') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
     font-family: 'template-icon';
     src:url('http://icanchoose.ru/public/resume/font/template5/template-icon.eot?-155bw2');
     src:url('http://icanchoose.ru/public/resume/font/template5/template-icon.eot?#iefix-155bw2') format('embedded-opentype'),
