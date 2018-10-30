@@ -1,0 +1,709 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+* 1. Set default font family to sans-serif.
+* 2. Prevent iOS text size adjust after orientation change, without disabling
+*    user zoom.
+*/
+
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+* Remove default margin.
+*/
+
+body {
+    margin: 0;
+}
+
+/* HTML5 display definitions
+========================================================================== */
+
+/**
+* Correct `block` display not defined for any HTML5 element in IE 8/9.
+* Correct `block` display not defined for `details` or `summary` in IE 10/11
+* and Firefox.
+* Correct `block` display not defined for `main` in IE 11.
+*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/**
+* 1. Correct `inline-block` display not defined in IE 8/9.
+* 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+*/
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block; /* 1 */
+    vertical-align: baseline; /* 2 */
+}
+
+/**
+* Prevent modern browsers from displaying `audio` without controls.
+* Remove excess height in iOS 5 devices.
+*/
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+* Address `[hidden]` styling not present in IE 8/9/10.
+* Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+*/
+
+[hidden],
+template {
+    display: none;
+}
+
+/* Links
+========================================================================== */
+
+/**
+* Remove the gray background color from active links in IE 10.
+*/
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/**
+* Improve readability when focused and also mouse hovered in all browsers.
+*/
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* Text-level semantics
+========================================================================== */
+
+/**
+* Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+*/
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/**
+* Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+*/
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/**
+* Address styling not present in Safari and Chrome.
+*/
+
+dfn {
+    font-style: italic;
+}
+
+/**
+* Address variable `h1` font-size and margin within `section` and `article`
+* contexts in Firefox 4+, Safari, and Chrome.
+*/
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/**
+* Address styling not present in IE 8/9.
+*/
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/**
+* Address inconsistent and variable font size in all browsers.
+*/
+
+small {
+    font-size: 80%;
+}
+
+/**
+* Prevent `sub` and `sup` affecting `line-height` in all browsers.
+*/
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* Embedded content
+========================================================================== */
+
+/**
+* Remove border when inside `a` element in IE 8/9/10.
+*/
+
+img {
+    border: 0;
+}
+
+/**
+* Correct overflow not hidden in IE 9/10/11.
+*/
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* Grouping content
+========================================================================== */
+
+/**
+* Address margin not present in IE 8/9 and Safari.
+*/
+
+figure {
+    margin: 1em 40px;
+}
+
+/**
+* Address differences between Firefox and other browsers.
+*/
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+* Contain overflow in all browsers.
+*/
+
+pre {
+    overflow: auto;
+}
+
+/**
+* Address odd `em`-unit font size rendering in all browsers.
+*/
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Forms
+========================================================================== */
+
+/**
+* Known limitation: by default, Chrome and Safari on OS X allow very limited
+* styling of `select`, unless a `border` property is set.
+*/
+
+/**
+* 1. Correct color not being inherited.
+*    Known issue: affects color of disabled elements.
+* 2. Correct font properties not being inherited.
+* 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit; /* 1 */
+    font: inherit; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/**
+* Address `overflow` set to `hidden` in IE 8/9/10/11.
+*/
+
+button {
+    overflow: visible;
+}
+
+/**
+* Address inconsistent `text-transform` inheritance for `button` and `select`.
+* All other form control elements do not inherit `text-transform` values.
+* Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+* Correct `select` style inheritance in Firefox.
+*/
+
+button,
+select {
+    text-transform: none;
+}
+
+/**
+* 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+*    and `video` controls.
+* 2. Correct inability to style clickable `input` types in iOS.
+* 3. Improve usability and consistency of cursor style between image-type
+*    `input` and others.
+*/
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/**
+* Re-set default cursor for disabled elements.
+*/
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+/**
+* Remove inner padding and border in Firefox 4+.
+*/
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/**
+* Address Firefox 4+ setting `line-height` on `input` using `!important` in
+* the UA stylesheet.
+*/
+
+input {
+    line-height: normal;
+}
+
+/**
+* It's recommended that you don't attempt to style these elements.
+* Firefox's implementation doesn't respect box-sizing, padding, or width.
+*
+* 1. Address box sizing set to `content-box` in IE 8/9/10.
+* 2. Remove excess padding in IE 8/9/10.
+*/
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+* Fix the cursor style for Chrome's increment/decrement buttons. For certain
+* `font-size` values of the `input`, it causes the cursor style of the
+* decrement button to change from `default` to `text`.
+*/
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+* 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+* 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+*    (include `-moz` to future-proof).
+*/
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/**
+* Remove inner padding and search cancel button in Safari and Chrome on OS X.
+* Safari (but not Chrome) clips the cancel button when the search input has
+* padding (and `textfield` appearance).
+*/
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+* Define consistent border, margin, and padding.
+*/
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+* 1. Correct `color` not being inherited in IE 8/9/10/11.
+* 2. Remove padding so people aren't caught out if they zero out fieldsets.
+*/
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+* Remove default vertical scrollbar in IE 8/9/10/11.
+*/
+
+textarea {
+    overflow: auto;
+}
+
+/**
+* Don't inherit the `font-weight` (applied by a rule above).
+* NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+*/
+
+optgroup {
+    font-weight: bold;
+}
+
+/* Tables
+========================================================================== */
+
+/**
+* Remove most spacing between table cells.
+*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #000;
+    background: #515860;
+    padding: 90px 0 90px;
+}
+
+.size-a4 {
+    background: #fff;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    padding: 56px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 0 .5cm rgba(0, 0, 0, 0.5);
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+p {
+    margin: 0 0 2px;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    border-left: 5px solid #eee;
+}
+
+blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
+    margin-bottom: 0;
+}
+
+.letter p {
+    margin: 0 0 10px;
+}
+
+@font-face {
+    font-family: 'hobby';
+    src:url('http://icanchoose.ru/public/resume/font/hobby.eot?-ezxd32');
+    src:url('http://icanchoose.ru/public/resume/font/hobby.eot?#iefix-ezxd32') format('embedded-opentype'),
+    url('http://icanchoose.ru/public/resume/font/hobby.woff?-ezxd32') format('woff'),
+    url('http://icanchoose.ru/public/resume/font/hobby.ttf?-ezxd32') format('truetype'),
+    url('http://icanchoose.ru/public/resume/font/hobby.svg?-ezxd32#hobby') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: 'hobby';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icehockey:before {
+    content: "\e632";
+}
+
+.icon-tennis:before {
+    content: "\e618";
+}
+
+.icon-bowling:before {
+    content: "\e619";
+}
+
+.icon-yoga:before {
+    content: "\e61a";
+}
+
+.icon-hunting:before {
+    content: "\e61b";
+}
+
+.icon-boxing:before {
+    content: "\e61c";
+}
+
+.icon-fencing:before {
+    content: "\e61d";
+}
+
+.icon-needlework:before {
+    content: "\e61e";
+}
+
+.icon-skydiving:before {
+    content: "\e61f";
+}
+
+.icon-pets:before {
+    content: "\e620";
+}
+
+.icon-boardgames:before {
+    content: "\e621";
+}
+
+.icon-bath:before {
+    content: "\e622";
+}
+
+.icon-computergames:before {
+    content: "\e623";
+}
+
+.icon-singing:before {
+    content: "\e624";
+}
+
+.icon-decoration:before {
+    content: "\e625";
+}
+
+.icon-surfing:before {
+    content: "\e626";
+}
+
+.icon-chess:before {
+    content: "\e627";
+}
+
+.icon-horsebackriding:before {
+    content: "\e628";
+}
+
+.icon-collecting:before {
+    content: "\e629";
+}
+
+.icon-floristics:before {
+    content: "\e62a";
+}
+
+.icon-billiards:before {
+    content: "\e62b";
+}
+
+.icon-skateboarding:before {
+    content: "\e62c";
+}
+
+.icon-rollers:before {
+    content: "\e62d";
+}
+
+.icon-mindgames:before {
+    content: "\e62e";
+}
+
+.icon-poetry:before {
+    content: "\e62f";
+}
+
+.icon-hikes:before {
+    content: "\e630";
+}
+
+.icon-rockclimbing:before {
+    content: "\e631";
+}
+
+.icon-airplane:before {
+    content: "\e600";
+}
+
+.icon-basketball:before {
+    content: "\e601";
+}
+
+.icon-books:before {
+    content: "\e602";
+}
+
+.icon-camera:before {
+    content: "\e603";
+}
+
+.icon-car:before {
+    content: "\e604";
+}
+
+.icon-palette:before {
+    content: "\e605";
+}
+
+.icon-comedy:before {
+    content: "\e606";
+}
+
+.icon-cooking:before {
+    content: "\e607";
+}
+
+.icon-cyclist:before {
+    content: "\e608";
+}
+
+.icon-dancer:before {
+    content: "\e609";
+}
+
+.icon-happy:before {
+    content: "\e60a";
+}
+
+.icon-mirrors:before {
+    content: "\e60b";
+}
+
+.icon-movie:before {
+    content: "\e60c";
+}
+
+.icon-musical:before {
+    content: "\e60d";
+}
+
+.icon-poker:before {
+    content: "\e60e";
+}
+
+.icon-running:before {
+    content: "\e60f";
+}
+
+.icon-snowboard:before {
+    content: "\e610";
+}
+
+.icon-soccer:before {
+    content: "\e611";
+}
+
+.icon-sport:before {
+    content: "\e612";
+}
+
+.icon-swimmer:before {
+    content: "\e613";
+}
+
+.icon-typewriter:before {
+    content: "\e614";
+}
+
+.icon-volleyball:before {
+    content: "\e615";
+}
+
+.icon-programming:before {
+    content: "\e616";
+}
+
+.icon-weightlifting:before {
+    content: "\e617";
+}
