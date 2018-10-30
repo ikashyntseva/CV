@@ -481,8 +481,8 @@ blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
 
 @font-face {
     font-family: 'hobby';
-    src:url('http://icanchoose.ru/public/resume/font/hobby.eot?-ezxd32');
-    src:url('http://icanchoose.ru/public/resume/font/hobby.eot?#iefix-ezxd32') format('embedded-opentype'),
+    src: url('http://icanchoose.ru/public/resume/font/hobby.eot?-ezxd32');
+    src: url('http://icanchoose.ru/public/resume/font/hobby.eot?#iefix-ezxd32') format('embedded-opentype'),
     url('http://icanchoose.ru/public/resume/font/hobby.woff?-ezxd32') format('woff'),
     url('http://icanchoose.ru/public/resume/font/hobby.ttf?-ezxd32') format('truetype'),
     url('http://icanchoose.ru/public/resume/font/hobby.svg?-ezxd32#hobby') format('svg');
