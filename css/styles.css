@@ -1,11 +1,13 @@
 .template-icon {
     font-family: 'template-icon';
+    display: block;
     speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
+    background: url(../img/Font_Awesome_4.7.0_icons.svg);
 
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
@@ -15,8 +17,16 @@
 .template-icon-post:before {
     content: "\e900";
 }
-.template-icon-language:before {
-    content: "\e901";
+
+.template-icon-goal {
+    width: 30px;
+    height: 26px;
+    background-position: -449px -237px;
+}
+.template-icon-language {
+    width: 30px;
+    height: 26px;
+    background-position: -37px -240px;
 }
 .template-icon-letter:before {
     content: "\e607";
@@ -24,26 +34,39 @@
 .template-icon-free:before {
     content: "\e610";
 }
-.template-icon-about:before {
-    content: "\e611";
-}
-.template-icon-label:before {
-    content: "\e60f";
+.template-icon-about {
+    width: 34px;
+    height: 30px;
+    background-position: -103px -13px;
 }
 .template-icon-rocket:before {
     content: "\e60d";
 }
-.template-icon-pie-chart:before {
-    content: "\e60e";
+
+.template-icon-cup {
+    width: 28px;
+    height: 30px;
+    background-position: -277px 117px;
 }
-.template-icon-teaching:before {
-    content: "\e605";
+.template-icon-pie-chart {
+    width: 30px;
+    height: 30px;
+    background-position: -136px 339px;
 }
-.template-icon-book:before {
-    content: "\e60b";
+.template-icon-teaching {
+    width: 38px;
+    height: 29px;
+    background-position: 292px 563px;
 }
-.template-icon-briefcase:before {
-    content: "\e606";
+.template-icon-book {
+    width: 28px;
+    height: 29px;
+    background-position: 0px -124px;
+}
+.template-icon-briefcase {
+    width: 30px;
+    height: 29px;
+    background-position: -138px -124px;
 }
 .template-icon-email:before {
     content: "\e60c";
@@ -267,10 +290,11 @@ body {
     position: relative;
 }
 .block-content-row .template-icon-label {
-    font-size: 16px;
-    color: #28abe3;
     margin-top: -4px;
-    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/font-awesome-sheet.svg);
+    background-position: -299px -1px;
 }
 .block-content-row-body {
     padding-left: 24px;
@@ -373,6 +397,9 @@ body {
 }
 .hobby i {
     margin: 0 14px;
+}
+.hobby i:first-child {
+    margin-left: 0;
 }
 .hobby i:last-child {
     margin-right: 0;
