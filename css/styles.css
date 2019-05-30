@@ -85,9 +85,14 @@
 .template-icon-gh:before {
     content: "\e800";
 }
-.template-icon-heart:before {
-    content: "\e609";
+.template-icon-heart {
+    width: 38px;
+    height: 29px;
+    background-position: 459px 524px;
 }
+/*.template-icon-heart:before {
+    content: "\e609";
+}*/
 .template-icon-global:before {
     content: "\e608";
 }
