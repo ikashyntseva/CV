@@ -80,11 +80,11 @@
 }
 @font-face {
     font-family: 'template-icon';
-    src:url('http://icanchoose.ru/public/resume/font/template5/template-icon.eot?-155bw2');
-    src:url('http://icanchoose.ru/public/resume/font/template5/template-icon.eot?#iefix-155bw2') format('embedded-opentype'),
-    url('http://icanchoose.ru/public/resume/font/template5/template-icon.woff?-155bw2') format('woff'),
-    url('http://icanchoose.ru/public/resume/font/template5/template-icon.ttf?-155bw2') format('truetype'),
-    url('http://icanchoose.ru/public/resume/font/template5/template-icon.svg?-155bw2#icon') format('svg');
+    src:url('../icofont/fonts/template-icon.eot?-155bw2');
+    src:url('../icofont/fonts/template-icon.eot?#iefix-155bw2') format('embedded-opentype'),
+    url('../icofont/fonts/template-icon.woff?-155bw2') format('woff'),
+    url('../icofont/fonts/template-icon.ttf?-155bw2') format('truetype'),
+    url('../icofont/fonts/template-icon.svg?-155bw2#icon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
