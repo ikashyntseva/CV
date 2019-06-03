@@ -69,10 +69,10 @@
     background-position: -138px -124px;
 }
 .template-icon-email {
-    
+    //content: "\e612";
 }
 .template-icon-smartphone {
-    ;
+    content: "\e613";
 }
 .template-icon-check:before {
     content: "\e612";
