@@ -97,7 +97,7 @@
     content: "\e608";
 }
 .template-icon-in:before {
-    content: "\e601";
+    //content: "\e601";
 }
 .template-icon-tw:before {
     content: "\e602";
