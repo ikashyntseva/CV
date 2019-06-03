@@ -71,7 +71,7 @@
 .template-icon-email {
     //content: "\e612";
 }
-.template-icon-smartphone {
+.template-icon-smartphone:before {
     content: "\e613";
 }
 .template-icon-check:before {
