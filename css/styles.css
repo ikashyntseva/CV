@@ -68,19 +68,19 @@
     height: 29px;
     background-position: -138px -124px;
 }
-.template-icon-email:before {
-    content: "\e60c";
+.template-icon-email {
+    
 }
-.template-icon-smartphone:before {
-    content: "\e60a";
-    display: inline-block;
-    margin-left: -3px;
+.template-icon-smartphone {
+    ;
 }
 .template-icon-check:before {
     content: "\e612";
 }
-.template-icon-bookmark:before {
-    content: "\e600";
+.template-icon-bookmark {
+    width: 32px;
+    height: 30px;
+    background-position: 1px 81px;
 }
 .template-icon-gh:before {
     content: "\e800";
