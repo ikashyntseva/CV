@@ -68,7 +68,7 @@
     height: 29px;
     background-position: -138px -124px;
 }
-.template-icon-email {
+.template-icon-email:before {
     content: "\e60c";
 }
 .template-icon-smartphone:before {
