@@ -69,7 +69,7 @@
     background-position: -138px -124px;
 }
 .template-icon-email {
-    //content: "\e612";
+    content: "\e60c";
 }
 .template-icon-smartphone:before {
     content: "\e613";
